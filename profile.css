@@ -1,0 +1,116 @@
+body {
+  background-color: #f7f7fa;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+header a {
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  border-right: 1px solid #ccc;
+  margin-left: 1px;
+}
+
+header img {
+  margin-top: 1px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+img.fit {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(117, 117, 117);
+  font-size: medium;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+b {
+  font-weight: bold;
+  padding: 1px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  justify-self: center;
+  align-self: center;
+}
+
+.userInfo {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.userInfo h1 {
+  color: black;
+  font-size: 24px;
+}
+
+.userInfo a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 24px;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.userInfo a.button:hover {
+  background-color: rgb(0, 102, 255);
+  color: white;
+}
+
+.userInfo a.button:active {
+  background-color: rgb(0, 77, 190);
+  color: white;
+}
+
+
+.order{    
+  font-family: Helvetica, sans-serif;
+  margin: 3px;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: fit-content;
+  max-height: fit-content;
+}

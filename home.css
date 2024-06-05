@@ -1,0 +1,202 @@
+header {
+  display: flex;
+}
+
+header a {
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  border-right: 1px solid #ccc;
+  margin-left: 1px;
+}
+
+header img {
+  margin-top: 1px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f7f7fa;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fit {
+  width: 100%;
+}
+
+.allmodels {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sec_bmw_motorrad_standard {
+  border: 1px solid black;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: rgb(0, 102, 255);
+  background-image: url("BMW_logo_(gray).svg.png");
+  background-size: cover;
+  width: 99%;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+.choose-model-container {
+  background-color: #f7f7fa;
+  height: min-content;
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#row {
+  display: flex;
+  font-family: Helvetica, sans-serif;
+}
+
+.item-row {
+  border-radius: 5px;
+  background-color: white;
+  height: 80px;
+  width: 90%;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.search-container {
+  margin: 20px 0;
+  text-align: center;
+  border: 1px solid black;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: rgb(0, 102, 255);
+  background-image: url("BMW_logo_(gray).svg.png");
+  background-size: cover;
+  width: 99%;
+  margin-bottom: 5px;
+}
+
+#search-form {
+  display: inline-block;
+}
+
+#search-form label {
+  font-family: Helvetica, sans-serif;
+}
+
+#search-form input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#search-form input[type="submit"] {
+  padding: 5px 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(117, 117, 117);
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+b {
+  font-weight: bold;
+  padding: 1px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.fit-spaces {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.itemContainer {
+  font-family: Helvetica, sans-serif;
+  margin: 3px;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.model {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    max-width: 99%;
+    max-height: 99%;
+    font-weight: bold;
+    padding: 1px 15px;
+    border-radius: 5px;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.itemContainer {
+    font-family: Helvetica, sans-serif;
+    margin: 3px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Aggiungi questo stile nel tuo file CSS */
+
+html {
+  scroll-behavior: smooth;
+}
+

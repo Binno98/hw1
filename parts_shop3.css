@@ -1,0 +1,282 @@
+header {
+    display: flex;
+
+  }
+  
+header a{
+  padding: 0 15px; /* Rimuovi i padding verticali */
+  height: 100%; /* Imposta l'altezza al 100% del contenitore nav */
+  display: flex;
+  align-items: center; /* Centra verticalmente il contenuto */
+  text-decoration: none; /* Rimuove la sottolineatura dei link */
+  color: inherit; /* Mantiene il colore del testo originale */
+  border-right: 1px solid #ccc; /* Aggiunge una linea separatrice a destra */
+  margin-left: 1px; /* Rimuovi margini orizzontali */
+  margin-right: px; /* Rimuovi margini orizzontali */
+}
+
+  header img{
+    margin-top: 1px;
+  }
+  
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Imposta la larghezza al 100% */
+    font-family: Helvetica, sans-serif;
+  }
+
+  body{
+    background-color: #f7f7fa;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+
+#test_api{
+  background-color: blue;
+}
+  .fit {
+    width: 100%;
+  }
+
+.allmodels{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+#sec_bmw_motorrad_standard{
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(0, 102, 255);
+    background-image: url("BMW_logo_(gray).svg.png");
+    background-size: cover;
+    width: 99%;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.choose-model-container{
+  background-color: #f7f7fa;
+  height: min-content;
+  text-align: center;
+  border: 10PX;
+}
+
+h2{
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+}
+
+
+#Bikes_models-first-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#row{
+  display: flex;
+  font-family: Helvetica, sans-serif;
+}
+
+.item-row{
+  border-radius: 5px;
+  background-color: white;
+  height: fit-content;
+  width:fit-content;
+  max-width: 20%;
+  max-height: 20%;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-decoration: none; /* Rimuove la sottolineatura del link */
+  color: inherit; /* Mantiene il colore del testo originale */
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(117, 117, 117);
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  width: 100%;
+  margin: 0; /* Elimina i margini predefiniti */
+  padding: 0; /* Elimina il padding predefinito */
+  box-sizing: border-box; /* Include il padding e i bordi nella larghezza totale */
+}
+
+
+b {
+  font-weight: bold;
+  padding: 1px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.fit-spaces {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.model{
+  display: flexbox;
+  justify-content:space-between;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  max-width: 99%;
+  max-height: 99%;
+  font-weight: bold;
+  padding: 1px 15px;
+  border-radius: 5px;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#bike-album img {
+  border: 1px solid #f7f7fa;
+  margin: 5px;
+  padding: 5px;
+  height: 150px;
+}
+
+#modal-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center;     /* Centra verticalmente */
+  z-index: 2;
+}
+
+
+
+
+#modal_exit_button {
+  position: absolute; /* Posiziona assolutamente rispetto a #modal-view */
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 40px;
+}
+
+#part_modal {
+  order: 2;
+  max-height: 50%;
+  max-width: 50%;
+  border-radius: 10%;
+  margin: 10px; 
+}
+
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+  font-family: Helvetica, sans-serif;
+  margin: 3px;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  padding: 5px;
+  border-radius: 15px 15px 15px 15px;
+  justify-self: center;
+  align-self: center;
+}
+
+.price{
+    order: 2;
+}
+
+#cart {
+    order: 3;
+    max-width: 10%;
+    max-height: 10%;
+    transition: background-color 0.3s ease; 
+    border-radius: 5px;
+}
+
+#cart:hover {
+    background-color:  rgb(3, 77, 188); 
+}
+
+#cart:active {
+    background-color:  rgb(1, 44, 108); 
+}
+
+.itemTitle{
+    order:1;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10%;
+}
+
+
+.partPhoto{
+  max-width: 99%;
+  max-height: 99%;
+}
+
+
+
+#modal-view nav {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  padding: 20px;
+  border-radius: 10%;
+  margin: 10px; /* Aggiungi margine per separare dall'elemento immagine */
+}
+
+
+.parts_modal{
+  margin: 3px;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+
+
+#modal-view.hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
